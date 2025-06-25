@@ -11,6 +11,7 @@ from selenium.common.exceptions import WebDriverException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+chromedriver_autoinstaller.install()
 link_list = [
     "https://gradehgplus.com/nqtgnz8x2dx9",
     "https://gradehgplus.com/hfip1hmdbutz",
