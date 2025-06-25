@@ -10,7 +10,7 @@ from fake_useragent import UserAgent
 from selenium.common.exceptions import WebDriverException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
+import chromedriver_autoinstaller
 chromedriver_autoinstaller.install()
 link_list = [
     "https://gradehgplus.com/nqtgnz8x2dx9",
